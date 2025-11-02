@@ -16,11 +16,11 @@ public class Car_Chapter15 {
 		
 		public void changeGear( int afterGear ) {
 			
+			
+			
+			System.out.println("ギアを" + gear + "から" + afterGear + "に切り替えました");
+			
 			this.gear = afterGear;
-			
-			System.out.println("ギアを" + this.gear + "から" + afterGear + "に切り替えました");
-			
-			
 		}
 		
 		public void run() {
@@ -33,7 +33,7 @@ public class Car_Chapter15 {
 				case 5 -> 50;
 				default -> 10;
 			};
-			System.out.println("速度は" + this.speed + "kmです");
+			System.out.println("速度は時速" + this.speed + "kmです");
 		}
 		
 	}
