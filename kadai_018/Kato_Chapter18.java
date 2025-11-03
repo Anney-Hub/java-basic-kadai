@@ -10,14 +10,17 @@ abstract public class Kato_Chapter18 {
 	
 	public void commonIntroduce() {
 		System.out.println("名前は" + this.familyName + this.givenName +"です");
-	}
-
-	public void execIntroduce() {
 		System.out.println("住所は" + this.address + "です");
 	}
 
 	//	抽象メソッドは具体内容を書かずに全体の型だけ親で指定する
 	abstract public void eachIntroduce();
+	
+	public void execIntroduce() {
+		commonIntroduce();
+		eachIntroduce();
+		
+	}
 	
 
 

@@ -3,8 +3,8 @@ package kadai_018;
 public class KatoTaro_Chapter18 extends Kato_Chapter18 {
 	
 //	mainで名前を渡して変数givenNameにセットする
-	public void setGivenName( String name ) {
-		this.givenName = name;
+	public void setGivenName() {
+		this.givenName = "太郎";
 	}
 	
 //	抽象メソッドの実装

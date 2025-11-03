@@ -8,24 +8,18 @@ public class KatoExec_Chapter18 {
 	KatoIchiro_Chapter18 ichi = new KatoIchiro_Chapter18();
 	KatoHanako_Chapter18 hana = new KatoHanako_Chapter18();
 	
-	taro.setGivenName("太郎");
-	taro.commonIntroduce();
+	taro.setGivenName();
 	taro.execIntroduce();
-	taro.eachIntroduce();
 
 	System.out.println("");
 	
-	ichi.setGivenName("一郎");
-	ichi.commonIntroduce();
+	ichi.setGivenName();
 	ichi.execIntroduce();
-	ichi.eachIntroduce();
 	
 	System.out.println("");
 	
-	hana.setGivenName("花子");
-	hana.commonIntroduce();
+	hana.setGivenName();
 	hana.execIntroduce();
-	hana.eachIntroduce();
 	
 	}
 
