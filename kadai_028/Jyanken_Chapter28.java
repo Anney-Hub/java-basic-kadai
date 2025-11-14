@@ -35,7 +35,7 @@ public class Jyanken_Chapter28 {
 		String[] arrayHands = {"r", "s", "p"};
 		
 //		ランダム値の変数iで、配列のインデックスを指定
-		int i = (int)(Math.random() * 3);
+		int i = (int)Math.floor((Math.random() * 3));
 		String opponentHands = arrayHands[i];
 		
 //		System.out.println(opponentHands);
